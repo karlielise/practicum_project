@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <section class="navigation">
+      <nav class="navbar">
+        <div class="nav-content">
+          <ul class="list-items">
+            <li class="list-item"><a href="#home">Home</a></li>
+            <li class="list-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-title"></div>
+        <div class="nav-content">
+          <ul class="list-items">
+            <li class="list-item"><a href="#home">Weddings</a></li>
+            <li class="list-item"><a href="#home">Events</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="hero" id="home">
+      <div class="video-loop-container">
+        <video src="Video/reception.mp4" autoplay muted loop id="video"></video>
+        <div class="video-content">
+          <p class="video-text">Food, Fun, Fam</p>
+          <p class="video-sub-text">Wine, Dance, Laugh</p>
+        </div>
+      </div>
+    </section>
+    <section class="available-rooms">
+      <div class="available-rooms-inner-container">
+        <div class="inner-container">
+          <img src="image/room1.jpg" alt="room-one">
+          <div class="inner-container-detail">
+            <p class="muted-text">Spacious, cool and comfy.</p>
+            <a href="/hotels/book" class="btn btn-booked">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="available-rooms-inner-container">
+        <div class="inner-container">
+          <img src="image/room2.jpg" alt="room-one">
+          <div class="inner-container-detail">
+            <p class="muted-text">Spacious, cool and comfy.</p>
+            <a href="/hotels/book" class="btn btn-booked">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="service-container">
+        <p class="service-container-text">At a Glance</p>
+      </div>
+
+      <div
+        class="hotel-service"
+        data-hotel-service
+        id="data-hotel-service"
+      ></div>
+
+      <div class="patio_outdoor_service">
+        <div class="patio_container">
+          <div class="lake_outdoor">
+            <p class="lake_outdoor_text">
+              Devour the serenity of nature from an elegant viewpoint of our
+              comforting sun loungers
+            </p>
+            <div class="patio_icons">
+              <div class="patio_icons_image_div">
+                <img src="image/resort-icon.png" alt="resort icon" />
+                <p class="patio_icon_text">Stay</p>
+              </div>
+              OR
+              <div class="patio_icons_image_div">
+                <img src="image/lodge-icon.png" alt="lodge icon" />
+                <p class="patio_icon_text">Travel</p>
+              </div>
+            </div>
+          </div>
+          <div class="patio_image">
+            <img src="image/patiolounger.jpg" alt="sun lounger" />
+          </div>
+        </div>
+
+        <div class="patio_container">
+          <div class="lake_outdoor">
+            <p class="lake_outdoor_text">
+              Stay late and dine with strangers and friends. Laugh, smile and
+              fall in love with the place in our rarest bush party event
+            </p>
+            <div class="patio_icons">
+              <div class="patio_icons_image_div">
+                <img src="image/resort-icon.png" alt="resort icon" />
+                <p class="patio_icon_text">Stay</p>
+              </div>
+              OR
+              <div class="patio_icons_image_div">
+                <img src="image/lodge-icon.png" alt="lodge icon" />
+                <p class="patio_icon_text">Travel</p>
+              </div>
+            </div>
+          </div>
+          <div class="patio_image">
+            <img src="image/party.jpg" alt="It's a bush party bitches" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map-container">
+      <div class="container">
+        <h3>Find us Here</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.793418674797!2d35.114564414852865!3d0.20243029985231728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178066c58d35d79b%3A0x6e92e65f4ee908c6!2sKapsabet%20High%20School!5e0!3m2!1sen!2ske!4v1664521582658!5m2!1sen!2ske"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="footer_service">
+        <p class="footer_service_text">Les Service</p>
+        <ul class="footer_list_items">
+          <li class="footer_list_item">Bush Dining</li>
+          <li class="footer_list_item">Weddings</li>
+          <li class="footer_list_item">Concierge</li>
+          <li class="footer_list_item">Meetings and Conferences</li>
+          <li class="footer_list_item">Valet</li>
+        </ul>
+      </div>
+      <div class="footer_service_events">
+        <div class="footer_service_text">What can you do?</div>
+        <ul class="footer_list_events">
+          <li class="footer_list_event">Social Danger</li>
+          <li class="footer_list_event">Field Hunting</li>
+          <li class="footer_list_event">Boat Riding</li>
+          <li class="footer_list_event">Bird Sighting</li>
+          <li class="footer_list_event">Nature Walks</li>
+        </ul>
+      </div>
+      <div class="footer_service_contact">
+        <p class="contact_text">Chat with us</p>
+        <div class="contact">
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="40"
+            rows="5"
+            placeholder="Is someone there!!"
+          ></textarea>
+          <button class="btn btn-send">Send</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
