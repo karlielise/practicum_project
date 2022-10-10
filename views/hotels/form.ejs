@@ -1,10 +1,10 @@
 <div class="form-group">
   <label for="email">Email</label>
-  <input type="text" name="email" id="email" />
+  <input type="email" name="email" id="email" required class="form-control" />
 </div>
 
-<!-- <div class="form-group">
-  <label for="book_date">Current Date</label>
+<div class="form-group">
+  <label for="book_date">Current Date / Date of Order</label>
   <input type="date" name="book_date" id="book_date" />
 </div>
 
@@ -33,7 +33,9 @@
     placeholder="How many children will be with you"
     required
   />
-</div> -->
+</div>
 
-<button type="submit" class="btn btn-send">Send</button>
-<a href="/" class="btn btn-main">Go to main page</a>
+<div class="buttons">
+  <button type="submit" class="btn btn-primary">Send</button>
+  <a href="/" class="btn btn-secondary">Main page</a>
+</div>

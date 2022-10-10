@@ -2,26 +2,26 @@ const mongoose = require("mongoose");
 
 const hotelSchema = new mongoose.Schema({
   email: {
-    required: true,
     type: String,
+    required: true,
   },
-  // currentDate: {
-  //   required: true,
-  //   type: Date,
-  //   default: Date.now,
-  // },
-  // depatureDate: {
-  //   required: true,
-  //   type: Date,
-  //   },
-  //   adults: {
-  //       type: Number,
-  //       required: true,
-  //   },
-  //   children: {
-  //       required: true,
-  //       type: Number
-  //   }
+  currentDate: {
+    type: Date,
+    default: Date.now,
+    required: true,
+  },
+  DepartureDate: {
+    type: Date,
+    required: true,
+  },
+  Adults: {
+    type: Number,
+    required: true,
+  },
+  Children: {
+    type: Number,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Hotel", hotelSchema);

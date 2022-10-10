@@ -120,6 +120,20 @@ html {
   margin-top: 40px;
 }
 
+.btn-book {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}
+
 .service-container-text {
   font-size: 22px;
   text-align: center;
@@ -275,7 +289,7 @@ html {
 form {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 600px;
   width: 80%;
   margin: 40px auto;
   color: white;
@@ -295,11 +309,11 @@ form input {
   flex-wrap: wrap;
 }
 
-.btn-send,
-.btn-main{
-  width: 300px;
+.btn-secondary,
+.btn-primary{
+  width: 250px;
   margin: 20px auto;
-  padding: 15px;
+  padding: 10px;
   outline: none;
   border: none;
   font-size: 22px;
@@ -307,9 +321,10 @@ form input {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-radius: 5px;
 }
 
-.btn-main {
+.btn-secondary {
   text-decoration: none;
   color: black;
   background: white;
@@ -330,17 +345,17 @@ form input {
 
 .available-rooms {
   max-width: 1200px;
-  width: 80%;
+  width: 70%;
   margin: 20px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  top: -150px;
+  top: -100px;
 }
 
 .available-rooms .available-rooms-inner-container {
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 
 .inner-container {
@@ -364,18 +379,4 @@ form input {
 .inner-container-detail .muted-text {
   margin-bottom: 10px;
   color: white;
-}
-
-.btn-booked {
-  width: 150px;
-  height: 50px;
-  background: white;
-  color: black;
-  margin-top: 100px;
-  border: 0;
-  outline: 0;
-  font-size: 18px;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 5px 30px;
 }

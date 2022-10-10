@@ -42,17 +42,5 @@ const displayHotelServices = (service) => {
     hotelService.innerHTML = displayHotelServiceItems;
 }
 
-function formSubmit() {
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-    })
-    //const emailInput = form.querySelector("#email")
-    // let emailInputValue = emailInput.value;
-    //const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
-}
-
-formSubmit()
-
 
 
